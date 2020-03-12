@@ -22,4 +22,6 @@
 #   array.size
 # end
 
-
+def using_include(array, element)
+  array.include?(element)
+end 
